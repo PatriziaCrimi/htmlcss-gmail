@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg');
+}
+
+.container {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+/* Header */
+#logo {
+  width: 100px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#title {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: normal;
+  height: 73px;
+  line-height: 73px;
+}
+
+header hr {
+  margin-top: 10px;
+}
+
+/* Section */
+#search {
+  margin-top: 10px;
+}
+
+#search button {
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+#search input {
+  padding: 2px;
+}
+
+#search #unread {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 35px;
+  margin: 20px 0 20px;
+}
+
+#unread > span {
+  background-color: orange;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 30px;
+}
+
+/* Main */
+.row {
+  background-color: rgba(208, 208, 208, 08);
+  height: 30px;
+  border: 1px solid black;
+}
+
+.row input[type] {
+  margin-left: 10px;
+}
+
+.row > span {
+    font-size: 18px;
+}
+
+.row .star, .mail_object {
+  font-weight: bold;
+}
+
+.row .mail_text {
+  color: grey;
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+}
+
+main hr {
+  margin: 10px 0 10px;
+}
+
+/* Footer */
+footer > p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+footer > p > span {
+  font-style: normal;
+  font-size: 25px;
+}
