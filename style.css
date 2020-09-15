@@ -14,13 +14,13 @@ body {
 }
 
 /* Header */
-#logo {
+header #logo {
   width: 100px;
   margin-right: 10px;
   vertical-align: middle;
 }
 
-#title {
+header #title {
   display: inline-block;
   color: rgba(255, 255, 255, 0.9);
   font-weight: normal;
@@ -29,27 +29,23 @@ body {
 }
 
 header hr {
-  margin-top: 10px;
+  margin: 20px 0 10px;
 }
 
-/* Section */
-#search {
-  margin-top: 10px;
+/* Section Search & Unread */
+section #search input {
+  padding: 2px;
 }
 
-#search button {
+section #search button {
   padding: 2px 8px;
   border-radius: 4px;
 }
 
-#search input {
-  padding: 2px;
-}
-
-#search #unread {
+section #unread {
+  margin: 15px 0 20px;
   color: rgba(255, 255, 255, 0.9);
   font-size: 35px;
-  margin: 20px 0 20px;
 }
 
 #unread > span {
@@ -60,13 +56,17 @@ header hr {
 }
 
 /* Main */
-.row {
+main hr {
+  margin: 10px 0 10px;
+}
+
+main .row {
   background-color: rgba(208, 208, 208, 08);
   height: 30px;
   border: 1px solid black;
 }
 
-.row input[type] {
+.row input[type="checkbox"] {
   margin-left: 10px;
 }
 
@@ -82,12 +82,8 @@ header hr {
   color: grey;
 }
 
-.white {
+.row.white {
   background-color: rgb(255, 255, 255);
-}
-
-main hr {
-  margin: 10px 0 10px;
 }
 
 /* Footer */
